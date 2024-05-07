@@ -8,7 +8,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from config import API_ID, API_HASH
 from YukkiMusic import app
-from YukkiMusic.utils.database import get_assistant, clonebotdb
+from YukkiMusic.utils.database import get_assistant
 from YukkiMusic.misc import SUDOERS
 from config import LOG_GROUP_ID
 
