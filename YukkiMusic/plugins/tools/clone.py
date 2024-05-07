@@ -1,4 +1,4 @@
-import re
+"""import re
 import logging
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -8,7 +8,7 @@ from pyrogram.errors.exceptions.bad_request_400 import (
 )
 from config import API_ID, API_HASH
 from YukkiMusic import app
-from YukkiMusic.utils.database import get_assistant
+from YukkiMusic.utils.database import get_assistant, clonebotdb
 from YukkiMusic.misc import SUDOERS
 from config import LOG_GROUP_ID
 
@@ -151,3 +151,4 @@ async def restart_bots():
             clonebotdb.delete_one({"token": bot_token})
         except Exception as e:
             logging.exception(f"Error while restarting bot with token {bot_token}: {e}")
+"""
