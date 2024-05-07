@@ -81,6 +81,5 @@ async def init():
 
 
 if __name__ == "__main__":
-    telethn.start(bot_token=config.BOT_TOKEN)
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("AnonX").info("Stopping Music Bot...")
